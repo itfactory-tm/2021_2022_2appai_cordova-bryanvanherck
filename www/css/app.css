@@ -5,3 +5,12 @@ a.brand-logo {
 p {
     text-align: justify;
 }
+
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.score {
+    text-align: center;
+}

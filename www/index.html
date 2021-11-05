@@ -51,7 +51,7 @@
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="#!" data-show="tabData"><i class="material-icons">sports_soccer</i>Voetbaldata</a></li>
+    <li><a href="#!" data-show="tabData"><i class="material-icons">sports_soccer</i>Champions League</a></li>
     <li>
         <div class="divider"></div>
     </li>
@@ -68,7 +68,7 @@
     <div class="row spa" id="tabInfo">
         <div class="col s12">
             <h4 class="center-align" style="color:teal; font-weight: bold"><i class="material-icons">face</i>
-                Info</h4>
+               Persoonlijke info</h4>
             <table class="centered striped">
                 <tr>
                     <th>Voornaam</th>
@@ -91,31 +91,60 @@
                     <td>r0714517</td>
                 </tr>
             </table>
-            <h4 class="center-align">Informatie over de applicatie</h4>
+            <br>
+            <!-- <h4 class="center-align">Informatie over de applicatie</h4> -->
     <div class="card-panel teal">
-        <span class="white-text">
+        <span class="card-title" style="font-size: x-large; color: floralwhite;">Informatie over de applicatie</span>
+        <p class="white-text">
         De applicatie is opgedeeld in 4 tabs. De eerste tab is het informatie scherm. Deze wordt automatisch geopend wanneer de app wordt gestart.
         Hiernaast is er ook een camera-tab, voetbaldata-tab en een tab waar u voetbalscores kan noteren en opslaan.
         Via de camera-tab kan u een foto nemen of deze uit uw gallerij halen. Als u een foto maakt, zal deze automatisch worden bewaard op uw gsm. De foto wordt ook weergeven op de applicatie. 
-        Via de voetbaldata-tab kan u de statistieken raadplegen van het seizoen 2021-2022 van de Premier League. 
+        Via de Champions League-tab kan u de scores van de afgelopen wedstrijden uit de Champions league 2021-2022 raadplegen.  
         In de storage-tab kan u voetbalscores noteren en deze ook opslaan. 
-    </span>
+        </p>
     </div>
         </div>
     </div>
 
     
-</main>
+
 
 
 
  <div class="row spa" id="tabData">
+     <div id="matches">
     <div class="col s12">
         <h4 class="center-align" style="color: teal; font-weight: bold"><i class="material-icons">analytics</i>
-            Voetbaldata</h4>
+            Champions League resultaten</h4>
+
             <!-- bijkomende info-->
+            <div class="match center-align">
+                <div class="blue-text"><h5>Matchday 1</h5>
+                <div id="matchday1"></div>
+            </div>
+            <div class="blue-text"><h5>Matchday 2</h5>
+                <div id="matchday2"></div>
+            </div>
+                <div class="blue-text"><h5>Matchday 3</h5>
+                <div id="matchday3"></div>
+            </div>
+                <div class="blue-text"><h5>Matchday 4</h5>
+                <div id="matchday4"></div>
+            </div>
+            <div class="blue-text"><h5>Matchday 5</h5>
+                <div id="matchday5"></div>
+            </div>
+            <div class="blue-text"><h5>Matchday 6</h5>
+                <div id="matchday6"></div>
+            </div>
+            </div>
+        
 
     </div>
+</div>
+<div id="empty">
+    <p>Too many requests, please try again in a minute.</p>
+</div>
 </div>
 
 <div class="row spa" id="tabCamera">
@@ -152,6 +181,7 @@
         </a>
     </div>
 </div>
+</main>
 <footer class="footer">
     Auteur: Bryan Van Herck
 </footer>
