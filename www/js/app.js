@@ -12,11 +12,24 @@ $(function(){
         Stored.addgame();
     });
 
-    $('ul').on('blur', '.title', function(){
+    $('ul').on('blur', '.home', function(){
         let id = $(this).data('task');   
         let task = $(this).html();      
         Stored.editgame(id, task);
     });
+
+    $('ul').on('blur', '.away', function(){
+        let id = $(this).data('task');   
+        let task = $(this).html();      
+        Stored.editaway(id, task);
+    });
+
+    $('ul').on('blur', '.result', function(){
+        let id = $(this).data('task');   
+        let task = $(this).html();      
+        Stored.editscore(id, task);
+    });
+
 
 
     $('ul').on('click', '.deleteTask', function(){
