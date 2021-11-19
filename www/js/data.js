@@ -38,13 +38,6 @@ let Data = function () {
            }
             if(response.matches[i].stage === "GROUP_STAGE" && response.matches[i].status === "FINISHED" && response.matches[i].matchday === 2){
    
-               /* $('#matchday2').append("<div class='item'>" +
-               "<div class='card-body'>" +
-               "<p class='card-text center-align'>" + response.matches[i].homeTeam.name + ' ' +  response.matches[i].score.fullTime.homeTeam + 
-               ' vs ' + ' ' + response.matches[i].score.fullTime.awayTeam + ' ' + response.matches[i].awayTeam.name + "</p>" +
-               "</div>" +
-               "</div>"); */ 
-
                $('#matchday2').append("<table>" +
                "<tbody>" + "<tr>" +
                "<td class='left-align'>" + response.matches[i].homeTeam.name + "</td>" +

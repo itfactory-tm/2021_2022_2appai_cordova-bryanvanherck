@@ -13,21 +13,6 @@ let Stored = function () {
         _gameList();
     };
 
-    /* let _gameList = function(){
-        $('.collection').empty();    // li-tags in collection verwijderen
-
-        for(let i = 0; i < _game.length; i++) {
-            let item = `<li class="collection-item avatar"> 
-			<i class="material-icons circle teal deleteTask" data-task="${i}">remove</i>
-			<div class="text" data-task="${i}" contenteditable>${_game[i]}</div>
-            <div class="text" data-task="${i}" contenteditable>${_away[i]}</div>
-            <div class="text" data-task="${i}" contenteditable>${_score[i]}</div>
-			</li>`;
-            $('ul.collection').append(item);
-        }
-    }; */
-
-
 let _gameList = function(){
         $('.collection').empty();    // li-tags in collection verwijderen
 
@@ -44,7 +29,6 @@ let _gameList = function(){
             $('ul.collection').append(item);
         }
     };
-
 
     let init = function(){
         let game_str = localStorage.getItem('Thuisploeg ');
@@ -69,13 +53,6 @@ let _gameList = function(){
         _gameList();
     };
 
-    // / Tekst aan de array toevoegen
-    /* let addgame = function(){
-        _game.push(`Wedstrijd & score ${_game.length}`);  
-        _setLocalStorage();
-    }; */
-
-
     let addgame = function(){
         _game.push(`Thuisploeg`); 
         _away.push(`Uitploeg`); 
@@ -83,7 +60,6 @@ let _gameList = function(){
         _setLocalStorage();
     }; 
 
-    // Splicen uit de array
     let deletegame = function(id){
         if(confirm('Deze wedstrijd wissen?')) {
             _game.splice(id, 1);   
