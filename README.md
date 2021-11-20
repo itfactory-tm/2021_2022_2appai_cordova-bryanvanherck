@@ -34,6 +34,8 @@ Deze plugin zorgt er voor dat als ik een foto heb, ik deze kan bewerken en event
 Deze plugin zorgt ervoor dat ik de getrokken foto kan opslaan en deze automatisch in mijn galerij terecht komt.
 - [cordova-plugin-file-transfer] 
 Deze plugin zorgt ervoor dat ik files/afbeeldingen kan downloaden en uploaden. Zo kan ik deze ook uit mijn gallerij oproepen.
+- [cordova-plugin-file]
+Deze plugin implementeert een Bestand API die lees/schrijftoegang toestaat tot bestanden die zich op het toestel bevinden.
 
 
 
