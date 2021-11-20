@@ -4,7 +4,7 @@
 - **Class**: (2APPAI 01)
 - **Email**: <a href="mailto:r0714517@student.thomasmore.be">r0714517@student.thomasmore.be</a>
 - **Student number**: r0714517
-- **APK download URL**: ......
+- **APK download URL**: footballstats.sinners.be
 
 ![Bryan Van Herck](Zelfportret.jpg)
 
