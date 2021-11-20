@@ -12,17 +12,11 @@ let Data = function () {
             
           console.log(response); 
 
-
-       
         $('#matches').show();
         $('#empty').hide();
         
-
-
         for (let i = 0; i < response.matches.length; i++){
   
-           
-   
                if(response.matches[i].stage === "GROUP_STAGE" && response.matches[i].status === "FINISHED" && response.matches[i].matchday === 1){
               
                    $('#matchday1').append("<table>" +
@@ -109,15 +103,11 @@ let Data = function () {
    
            }
        
-       
-          
         })
         .fail(function(){
             $('#matches').hide();
         $('#empty').show();
         });
     }); 
-
-    
 
 }();

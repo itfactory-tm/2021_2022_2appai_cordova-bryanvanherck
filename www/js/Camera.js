@@ -1,4 +1,3 @@
-
 let Picture = function () {
     let init = function() {
 // trekken van foto

@@ -30,8 +30,6 @@ $(function(){
         Stored.editscore(id, task);
     });
 
-
-
     $('ul').on('click', '.deleteTask', function(){
         console.log('taak wissen');
         let id = $(this).data('task');  
